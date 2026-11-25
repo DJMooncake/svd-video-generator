@@ -16,8 +16,9 @@ app; it uses the same generation model and settings as version 2.
 
 1. Download or clone this repository. Open its folder and run `start.bat`.
    It creates `.venv` and downloads PyTorch and the Python dependencies. The
-   first launch may take some time. If installation fails, read the console
-   error and run `start.bat` again.
+   first launch may take some time. The large PyTorch download resumes if
+   interrupted and is verified against the official SHA-256. If installation
+   fails, read the console error and run `start.bat` again.
 2. Visit the [SVD 1.1 model page](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt-1-1),
    review its terms and request access while signed in. Approval is controlled
    by the model provider; the app does not accept the license for you.
